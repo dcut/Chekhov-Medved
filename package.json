@@ -1,0 +1,25 @@
+{
+  "name": "chekhov-medved",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dcut/Chekhov-Medved.git",
+  "author": "Serabass <serabass565@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "spell": "mdspell \"**/*.md\" \"!**/node_modules/**/*.md\""
+  },
+  "dependencies": {
+    "glob": "^7.1.3",
+    "globby": "^9.0.0",
+    "markdown-pdf": "^9.0.0",
+    "markdown-spellcheck": "^1.3.1",
+    "ts-node": "^8.0.2",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.1.1",
+    "@types/globby": "^8.0.0",
+    "@types/markdown-pdf": "^9.0.0"
+  }
+}
